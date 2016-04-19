@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C25496511CC5C805007A98AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25496501CC5C805007A98AA /* AppDelegate.swift */; };
+		C25496531CC5C805007A98AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25496521CC5C805007A98AA /* ViewController.swift */; };
+		C25496561CC5C805007A98AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25496541CC5C805007A98AA /* Main.storyboard */; };
+		C25496581CC5C805007A98AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C25496571CC5C805007A98AA /* Assets.xcassets */; };
+		C254965B1CC5C805007A98AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25496591CC5C805007A98AA /* LaunchScreen.storyboard */; };
+		C25496661CC5C805007A98AA /* Amit_KalraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25496651CC5C805007A98AA /* Amit_KalraTests.swift */; };
+		C25496711CC5C805007A98AA /* Amit_KalraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25496701CC5C805007A98AA /* Amit_KalraUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C25496621CC5C805007A98AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C25496451CC5C805007A98AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C254964C1CC5C805007A98AA;
+			remoteInfo = "Amit Kalra";
+		};
+		C254966D1CC5C805007A98AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C25496451CC5C805007A98AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C254964C1CC5C805007A98AA;
+			remoteInfo = "Amit Kalra";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C254964D1CC5C805007A98AA /* Amit Kalra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amit Kalra.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25496501CC5C805007A98AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C25496521CC5C805007A98AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C25496551CC5C805007A98AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C25496571CC5C805007A98AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C254965A1CC5C805007A98AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C254965C1CC5C805007A98AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C25496611CC5C805007A98AA /* Amit KalraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amit KalraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25496651CC5C805007A98AA /* Amit_KalraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amit_KalraTests.swift; sourceTree = "<group>"; };
+		C25496671CC5C805007A98AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C254966C1CC5C805007A98AA /* Amit KalraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amit KalraUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25496701CC5C805007A98AA /* Amit_KalraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amit_KalraUITests.swift; sourceTree = "<group>"; };
+		C25496721CC5C805007A98AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C254964A1CC5C805007A98AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C254965E1CC5C805007A98AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25496691CC5C805007A98AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C25496441CC5C805007A98AA = {
+			isa = PBXGroup;
+			children = (
+				C254964F1CC5C805007A98AA /* Amit Kalra */,
+				C25496641CC5C805007A98AA /* Amit KalraTests */,
+				C254966F1CC5C805007A98AA /* Amit KalraUITests */,
+				C254964E1CC5C805007A98AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C254964E1CC5C805007A98AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C254964D1CC5C805007A98AA /* Amit Kalra.app */,
+				C25496611CC5C805007A98AA /* Amit KalraTests.xctest */,
+				C254966C1CC5C805007A98AA /* Amit KalraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C254964F1CC5C805007A98AA /* Amit Kalra */ = {
+			isa = PBXGroup;
+			children = (
+				C25496501CC5C805007A98AA /* AppDelegate.swift */,
+				C25496521CC5C805007A98AA /* ViewController.swift */,
+				C25496541CC5C805007A98AA /* Main.storyboard */,
+				C25496571CC5C805007A98AA /* Assets.xcassets */,
+				C25496591CC5C805007A98AA /* LaunchScreen.storyboard */,
+				C254965C1CC5C805007A98AA /* Info.plist */,
+			);
+			path = "Amit Kalra";
+			sourceTree = "<group>";
+		};
+		C25496641CC5C805007A98AA /* Amit KalraTests */ = {
+			isa = PBXGroup;
+			children = (
+				C25496651CC5C805007A98AA /* Amit_KalraTests.swift */,
+				C25496671CC5C805007A98AA /* Info.plist */,
+			);
+			path = "Amit KalraTests";
+			sourceTree = "<group>";
+		};
+		C254966F1CC5C805007A98AA /* Amit KalraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C25496701CC5C805007A98AA /* Amit_KalraUITests.swift */,
+				C25496721CC5C805007A98AA /* Info.plist */,
+			);
+			path = "Amit KalraUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C254964C1CC5C805007A98AA /* Amit Kalra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C25496751CC5C805007A98AA /* Build configuration list for PBXNativeTarget "Amit Kalra" */;
+			buildPhases = (
+				C25496491CC5C805007A98AA /* Sources */,
+				C254964A1CC5C805007A98AA /* Frameworks */,
+				C254964B1CC5C805007A98AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Amit Kalra";
+			productName = "Amit Kalra";
+			productReference = C254964D1CC5C805007A98AA /* Amit Kalra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C25496601CC5C805007A98AA /* Amit KalraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C25496781CC5C805007A98AA /* Build configuration list for PBXNativeTarget "Amit KalraTests" */;
+			buildPhases = (
+				C254965D1CC5C805007A98AA /* Sources */,
+				C254965E1CC5C805007A98AA /* Frameworks */,
+				C254965F1CC5C805007A98AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C25496631CC5C805007A98AA /* PBXTargetDependency */,
+			);
+			name = "Amit KalraTests";
+			productName = "Amit KalraTests";
+			productReference = C25496611CC5C805007A98AA /* Amit KalraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C254966B1CC5C805007A98AA /* Amit KalraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C254967B1CC5C805007A98AA /* Build configuration list for PBXNativeTarget "Amit KalraUITests" */;
+			buildPhases = (
+				C25496681CC5C805007A98AA /* Sources */,
+				C25496691CC5C805007A98AA /* Frameworks */,
+				C254966A1CC5C805007A98AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C254966E1CC5C805007A98AA /* PBXTargetDependency */,
+			);
+			name = "Amit KalraUITests";
+			productName = "Amit KalraUITests";
+			productReference = C254966C1CC5C805007A98AA /* Amit KalraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C25496451CC5C805007A98AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Amit Nivedan Kalra";
+				TargetAttributes = {
+					C254964C1CC5C805007A98AA = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					C25496601CC5C805007A98AA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C254964C1CC5C805007A98AA;
+					};
+					C254966B1CC5C805007A98AA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = C254964C1CC5C805007A98AA;
+					};
+				};
+			};
+			buildConfigurationList = C25496481CC5C805007A98AA /* Build configuration list for PBXProject "Amit Kalra" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C25496441CC5C805007A98AA;
+			productRefGroup = C254964E1CC5C805007A98AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C254964C1CC5C805007A98AA /* Amit Kalra */,
+				C25496601CC5C805007A98AA /* Amit KalraTests */,
+				C254966B1CC5C805007A98AA /* Amit KalraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C254964B1CC5C805007A98AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C254965B1CC5C805007A98AA /* LaunchScreen.storyboard in Resources */,
+				C25496581CC5C805007A98AA /* Assets.xcassets in Resources */,
+				C25496561CC5C805007A98AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C254965F1CC5C805007A98AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C254966A1CC5C805007A98AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C25496491CC5C805007A98AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25496531CC5C805007A98AA /* ViewController.swift in Sources */,
+				C25496511CC5C805007A98AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C254965D1CC5C805007A98AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25496661CC5C805007A98AA /* Amit_KalraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25496681CC5C805007A98AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25496711CC5C805007A98AA /* Amit_KalraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C25496631CC5C805007A98AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C254964C1CC5C805007A98AA /* Amit Kalra */;
+			targetProxy = C25496621CC5C805007A98AA /* PBXContainerItemProxy */;
+		};
+		C254966E1CC5C805007A98AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C254964C1CC5C805007A98AA /* Amit Kalra */;
+			targetProxy = C254966D1CC5C805007A98AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C25496541CC5C805007A98AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C25496551CC5C805007A98AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C25496591CC5C805007A98AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C254965A1CC5C805007A98AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C25496731CC5C805007A98AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C25496741CC5C805007A98AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C25496761CC5C805007A98AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Amit Kalra/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amitnkalra.Amit-Kalra";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C25496771CC5C805007A98AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Amit Kalra/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amitnkalra.Amit-Kalra";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C25496791CC5C805007A98AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Amit KalraTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amitnkalra.Amit-KalraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amit Kalra.app/Amit Kalra";
+			};
+			name = Debug;
+		};
+		C254967A1CC5C805007A98AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Amit KalraTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amitnkalra.Amit-KalraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Amit Kalra.app/Amit Kalra";
+			};
+			name = Release;
+		};
+		C254967C1CC5C805007A98AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Amit KalraUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amitnkalra.Amit-KalraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Amit Kalra";
+			};
+			name = Debug;
+		};
+		C254967D1CC5C805007A98AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Amit KalraUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amitnkalra.Amit-KalraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Amit Kalra";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C25496481CC5C805007A98AA /* Build configuration list for PBXProject "Amit Kalra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25496731CC5C805007A98AA /* Debug */,
+				C25496741CC5C805007A98AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C25496751CC5C805007A98AA /* Build configuration list for PBXNativeTarget "Amit Kalra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25496761CC5C805007A98AA /* Debug */,
+				C25496771CC5C805007A98AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C25496781CC5C805007A98AA /* Build configuration list for PBXNativeTarget "Amit KalraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25496791CC5C805007A98AA /* Debug */,
+				C254967A1CC5C805007A98AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C254967B1CC5C805007A98AA /* Build configuration list for PBXNativeTarget "Amit KalraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C254967C1CC5C805007A98AA /* Debug */,
+				C254967D1CC5C805007A98AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C25496451CC5C805007A98AA /* Project object */;
+}
