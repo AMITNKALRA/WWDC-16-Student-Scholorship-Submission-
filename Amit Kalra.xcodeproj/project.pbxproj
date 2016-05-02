@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C204514D1CCEE27F00130E65 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C204514B1CCEE27F00130E65 /* Fabric.framework */; };
+		C204514E1CCEE27F00130E65 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C204514C1CCEE27F00130E65 /* Crashlytics.framework */; };
+		C20B601F1CCBF50B00DAE9C3 /* Press.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20B601E1CCBF50B00DAE9C3 /* Press.swift */; };
+		C244267D1CC9578F00C5A7CB /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C244267B1CC9578F00C5A7CB /* Interface.storyboard */; };
+		C244267F1CC9579000C5A7CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C244267E1CC9579000C5A7CB /* Assets.xcassets */; };
+		C24426861CC9579000C5A7CB /* Amit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C24426851CC9579000C5A7CB /* Amit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C244268D1CC9579000C5A7CB /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C244268C1CC9579000C5A7CB /* InterfaceController.swift */; };
+		C244268F1CC9579000C5A7CB /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C244268E1CC9579000C5A7CB /* ExtensionDelegate.swift */; };
+		C24426911CC9579000C5A7CB /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24426901CC9579000C5A7CB /* NotificationController.swift */; };
+		C24426931CC9579000C5A7CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C24426921CC9579000C5A7CB /* Assets.xcassets */; };
+		C24426971CC9579000C5A7CB /* Amit.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C24426791CC9578F00C5A7CB /* Amit.app */; };
 		C25496511CC5C805007A98AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25496501CC5C805007A98AA /* AppDelegate.swift */; };
 		C25496531CC5C805007A98AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25496521CC5C805007A98AA /* ViewController.swift */; };
 		C25496561CC5C805007A98AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25496541CC5C805007A98AA /* Main.storyboard */; };
@@ -14,9 +25,67 @@
 		C254965B1CC5C805007A98AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25496591CC5C805007A98AA /* LaunchScreen.storyboard */; };
 		C25496661CC5C805007A98AA /* Amit_KalraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25496651CC5C805007A98AA /* Amit_KalraTests.swift */; };
 		C25496711CC5C805007A98AA /* Amit_KalraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25496701CC5C805007A98AA /* Amit_KalraUITests.swift */; };
+		C258089A1CC6FC7300F30850 /* Help.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25808991CC6FC7300F30850 /* Help.swift */; };
+		C258089C1CC715D400F30850 /* Me.swift in Sources */ = {isa = PBXBuildFile; fileRef = C258089B1CC715D400F30850 /* Me.swift */; };
+		C258089E1CC715DC00F30850 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = C258089D1CC715DC00F30850 /* School.swift */; };
+		C25808A01CC715E900F30850 /* Chill.swift in Sources */ = {isa = PBXBuildFile; fileRef = C258089F1CC715E900F30850 /* Chill.swift */; };
+		C25808A21CC715F200F30850 /* Backstory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25808A11CC715F200F30850 /* Backstory.swift */; };
+		C25808A41CC715FB00F30850 /* Devices.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25808A31CC715FB00F30850 /* Devices.swift */; };
+		C25808A61CC7160B00F30850 /* Calc.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25808A51CC7160B00F30850 /* Calc.swift */; };
+		C25808A81CC7161400F30850 /* Parkour.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25808A71CC7161400F30850 /* Parkour.swift */; };
+		C25808AA1CC7161D00F30850 /* Facts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25808A91CC7161D00F30850 /* Facts.swift */; };
+		C25808AC1CC7162B00F30850 /* YouTube.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25808AB1CC7162B00F30850 /* YouTube.swift */; };
+		C25808AE1CC7163B00F30850 /* Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25808AD1CC7163B00F30850 /* Swift.swift */; };
+		C25808B01CC7164300F30850 /* Lua.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25808AF1CC7164300F30850 /* Lua.swift */; };
+		C25808B21CC7164C00F30850 /* HTML.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25808B11CC7164C00F30850 /* HTML.swift */; };
+		C25808B41CC7165B00F30850 /* FCPX.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25808B31CC7165B00F30850 /* FCPX.swift */; };
+		C25808B61CC7166F00F30850 /* Boot.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25808B51CC7166F00F30850 /* Boot.swift */; };
+		C25808B81CC7167800F30850 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25808B71CC7167800F30850 /* Welcome.swift */; };
+		C25808BA1CC7168500F30850 /* Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25808B91CC7168500F30850 /* Intro.swift */; };
+		C25808BC1CC7168C00F30850 /* anotherIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25808BB1CC7168C00F30850 /* anotherIntro.swift */; };
+		C25808BF1CC72B5300F30850 /* BootingSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = C25808BD1CC72B5300F30850 /* BootingSound.wav */; };
+		C25808C01CC72B5300F30850 /* HelloDub.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C25808BE1CC72B5300F30850 /* HelloDub.mp3 */; };
+		C26DAD8D1CD04AA600C2A16E /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26DAD8C1CD04AA600C2A16E /* FactBook.swift */; };
+		C27F67291CCD8AE600C11CCE /* FactsMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27F67281CCD8AE600C11CCE /* FactsMe.swift */; };
+		C2838E041CC6C23A0034BDB4 /* DubDub.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2838E031CC6C23A0034BDB4 /* DubDub.swift */; };
+		C2838E061CC6C2BE0034BDB4 /* AboutMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2838E051CC6C2BE0034BDB4 /* AboutMe.swift */; };
+		C2838E081CC6C2CF0034BDB4 /* Projects.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2838E071CC6C2CF0034BDB4 /* Projects.swift */; };
+		C2838E0A1CC6C2DB0034BDB4 /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2838E091CC6C2DB0034BDB4 /* Experience.swift */; };
+		C2CBC17C1CD2DC1A00A6ABB4 /* Backstory.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C2CBC16C1CD2DC1A00A6ABB4 /* Backstory.mp3 */; };
+		C2CBC17D1CD2DC1A00A6ABB4 /* Calc.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C2CBC16D1CD2DC1A00A6ABB4 /* Calc.mp3 */; };
+		C2CBC17E1CD2DC1A00A6ABB4 /* Chill.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C2CBC16E1CD2DC1A00A6ABB4 /* Chill.mp3 */; };
+		C2CBC17F1CD2DC1A00A6ABB4 /* Devices.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C2CBC16F1CD2DC1A00A6ABB4 /* Devices.mp3 */; };
+		C2CBC1801CD2DC1A00A6ABB4 /* Facts.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C2CBC1701CD2DC1A00A6ABB4 /* Facts.mp3 */; };
+		C2CBC1811CD2DC1A00A6ABB4 /* FCPX.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C2CBC1711CD2DC1A00A6ABB4 /* FCPX.mp3 */; };
+		C2CBC1821CD2DC1A00A6ABB4 /* Hey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C2CBC1721CD2DC1A00A6ABB4 /* Hey.mp3 */; };
+		C2CBC1831CD2DC1A00A6ABB4 /* HTML.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C2CBC1731CD2DC1A00A6ABB4 /* HTML.mp3 */; };
+		C2CBC1841CD2DC1A00A6ABB4 /* Lua.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C2CBC1741CD2DC1A00A6ABB4 /* Lua.mp3 */; };
+		C2CBC1851CD2DC1A00A6ABB4 /* Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C2CBC1751CD2DC1A00A6ABB4 /* Me.mp3 */; };
+		C2CBC1861CD2DC1A00A6ABB4 /* Parkour.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C2CBC1761CD2DC1A00A6ABB4 /* Parkour.mp3 */; };
+		C2CBC1881CD2DC1A00A6ABB4 /* School.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C2CBC1781CD2DC1A00A6ABB4 /* School.mp3 */; };
+		C2CBC1891CD2DC1A00A6ABB4 /* Swift.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C2CBC1791CD2DC1A00A6ABB4 /* Swift.mp3 */; };
+		C2CBC18A1CD2DC1A00A6ABB4 /* WWDC.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C2CBC17A1CD2DC1A00A6ABB4 /* WWDC.mp3 */; };
+		C2CBC18B1CD2DC1A00A6ABB4 /* YouTube.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C2CBC17B1CD2DC1A00A6ABB4 /* YouTube.mp3 */; };
+		C2CBC18F1CD2EC5B00A6ABB4 /* AboutMe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C2CBC18C1CD2EC5B00A6ABB4 /* AboutMe.mp3 */; };
+		C2CBC1901CD2EC5B00A6ABB4 /* Experience.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C2CBC18D1CD2EC5B00A6ABB4 /* Experience.mp3 */; };
+		C2CBC1911CD2EC5B00A6ABB4 /* Projects.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C2CBC18E1CD2EC5B00A6ABB4 /* Projects.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C24426871CC9579000C5A7CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C25496451CC5C805007A98AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C24426841CC9579000C5A7CB;
+			remoteInfo = "Amit Extension";
+		};
+		C24426951CC9579000C5A7CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C25496451CC5C805007A98AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C24426781CC9578F00C5A7CB;
+			remoteInfo = Amit;
+		};
 		C25496621CC5C805007A98AA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C25496451CC5C805007A98AA /* Project object */;
@@ -33,7 +102,46 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C244269D1CC9579000C5A7CB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C24426861CC9579000C5A7CB /* Amit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C244269F1CC9579000C5A7CB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C24426971CC9579000C5A7CB /* Amit.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		C204514B1CCEE27F00130E65 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		C204514C1CCEE27F00130E65 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		C20B601E1CCBF50B00DAE9C3 /* Press.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Press.swift; sourceTree = "<group>"; };
+		C24426791CC9578F00C5A7CB /* Amit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Amit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C244267C1CC9578F00C5A7CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C244267E1CC9579000C5A7CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C24426801CC9579000C5A7CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C24426851CC9579000C5A7CB /* Amit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Amit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C244268B1CC9579000C5A7CB /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C244268C1CC9579000C5A7CB /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C244268E1CC9579000C5A7CB /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		C24426901CC9579000C5A7CB /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		C24426921CC9579000C5A7CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C24426941CC9579000C5A7CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C254964D1CC5C805007A98AA /* Amit Kalra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amit Kalra.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C25496501CC5C805007A98AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C25496521CC5C805007A98AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,13 +155,66 @@
 		C254966C1CC5C805007A98AA /* Amit KalraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amit KalraUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C25496701CC5C805007A98AA /* Amit_KalraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amit_KalraUITests.swift; sourceTree = "<group>"; };
 		C25496721CC5C805007A98AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C25808991CC6FC7300F30850 /* Help.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Help.swift; sourceTree = "<group>"; };
+		C258089B1CC715D400F30850 /* Me.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Me.swift; sourceTree = "<group>"; };
+		C258089D1CC715DC00F30850 /* School.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		C258089F1CC715E900F30850 /* Chill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chill.swift; sourceTree = "<group>"; };
+		C25808A11CC715F200F30850 /* Backstory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Backstory.swift; sourceTree = "<group>"; };
+		C25808A31CC715FB00F30850 /* Devices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Devices.swift; sourceTree = "<group>"; };
+		C25808A51CC7160B00F30850 /* Calc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calc.swift; sourceTree = "<group>"; };
+		C25808A71CC7161400F30850 /* Parkour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parkour.swift; sourceTree = "<group>"; };
+		C25808A91CC7161D00F30850 /* Facts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Facts.swift; sourceTree = "<group>"; };
+		C25808AB1CC7162B00F30850 /* YouTube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YouTube.swift; sourceTree = "<group>"; };
+		C25808AD1CC7163B00F30850 /* Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swift.swift; sourceTree = "<group>"; };
+		C25808AF1CC7164300F30850 /* Lua.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lua.swift; sourceTree = "<group>"; };
+		C25808B11CC7164C00F30850 /* HTML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTML.swift; sourceTree = "<group>"; };
+		C25808B31CC7165B00F30850 /* FCPX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCPX.swift; sourceTree = "<group>"; };
+		C25808B51CC7166F00F30850 /* Boot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Boot.swift; sourceTree = "<group>"; };
+		C25808B71CC7167800F30850 /* Welcome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		C25808B91CC7168500F30850 /* Intro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intro.swift; sourceTree = "<group>"; };
+		C25808BB1CC7168C00F30850 /* anotherIntro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = anotherIntro.swift; sourceTree = "<group>"; };
+		C25808BD1CC72B5300F30850 /* BootingSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = BootingSound.wav; sourceTree = "<group>"; };
+		C25808BE1CC72B5300F30850 /* HelloDub.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HelloDub.mp3; sourceTree = "<group>"; };
+		C26DAD8C1CD04AA600C2A16E /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
+		C27F67281CCD8AE600C11CCE /* FactsMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactsMe.swift; sourceTree = "<group>"; };
+		C2838E031CC6C23A0034BDB4 /* DubDub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DubDub.swift; sourceTree = "<group>"; };
+		C2838E051CC6C2BE0034BDB4 /* AboutMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMe.swift; sourceTree = "<group>"; };
+		C2838E071CC6C2CF0034BDB4 /* Projects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Projects.swift; sourceTree = "<group>"; };
+		C2838E091CC6C2DB0034BDB4 /* Experience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
+		C2CBC16C1CD2DC1A00A6ABB4 /* Backstory.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Backstory.mp3; sourceTree = "<group>"; };
+		C2CBC16D1CD2DC1A00A6ABB4 /* Calc.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Calc.mp3; sourceTree = "<group>"; };
+		C2CBC16E1CD2DC1A00A6ABB4 /* Chill.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Chill.mp3; sourceTree = "<group>"; };
+		C2CBC16F1CD2DC1A00A6ABB4 /* Devices.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Devices.mp3; sourceTree = "<group>"; };
+		C2CBC1701CD2DC1A00A6ABB4 /* Facts.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Facts.mp3; sourceTree = "<group>"; };
+		C2CBC1711CD2DC1A00A6ABB4 /* FCPX.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FCPX.mp3; sourceTree = "<group>"; };
+		C2CBC1721CD2DC1A00A6ABB4 /* Hey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hey.mp3; sourceTree = "<group>"; };
+		C2CBC1731CD2DC1A00A6ABB4 /* HTML.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HTML.mp3; sourceTree = "<group>"; };
+		C2CBC1741CD2DC1A00A6ABB4 /* Lua.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Lua.mp3; sourceTree = "<group>"; };
+		C2CBC1751CD2DC1A00A6ABB4 /* Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Me.mp3; sourceTree = "<group>"; };
+		C2CBC1761CD2DC1A00A6ABB4 /* Parkour.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Parkour.mp3; sourceTree = "<group>"; };
+		C2CBC1781CD2DC1A00A6ABB4 /* School.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = School.mp3; sourceTree = "<group>"; };
+		C2CBC1791CD2DC1A00A6ABB4 /* Swift.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Swift.mp3; sourceTree = "<group>"; };
+		C2CBC17A1CD2DC1A00A6ABB4 /* WWDC.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WWDC.mp3; sourceTree = "<group>"; };
+		C2CBC17B1CD2DC1A00A6ABB4 /* YouTube.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = YouTube.mp3; sourceTree = "<group>"; };
+		C2CBC18C1CD2EC5B00A6ABB4 /* AboutMe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = AboutMe.mp3; sourceTree = "<group>"; };
+		C2CBC18D1CD2EC5B00A6ABB4 /* Experience.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Experience.mp3; sourceTree = "<group>"; };
+		C2CBC18E1CD2EC5B00A6ABB4 /* Projects.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Projects.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C24426821CC9579000C5A7CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C254964A1CC5C805007A98AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C204514E1CCEE27F00130E65 /* Crashlytics.framework in Frameworks */,
+				C204514D1CCEE27F00130E65 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +235,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C244267A1CC9578F00C5A7CB /* Amit */ = {
+			isa = PBXGroup;
+			children = (
+				C244267B1CC9578F00C5A7CB /* Interface.storyboard */,
+				C244267E1CC9579000C5A7CB /* Assets.xcassets */,
+				C24426801CC9579000C5A7CB /* Info.plist */,
+			);
+			path = Amit;
+			sourceTree = "<group>";
+		};
+		C24426891CC9579000C5A7CB /* Amit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C244268C1CC9579000C5A7CB /* InterfaceController.swift */,
+				C244268E1CC9579000C5A7CB /* ExtensionDelegate.swift */,
+				C24426901CC9579000C5A7CB /* NotificationController.swift */,
+				C24426921CC9579000C5A7CB /* Assets.xcassets */,
+				C24426941CC9579000C5A7CB /* Info.plist */,
+				C244268A1CC9579000C5A7CB /* Supporting Files */,
+			);
+			path = "Amit Extension";
+			sourceTree = "<group>";
+		};
+		C244268A1CC9579000C5A7CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C244268B1CC9579000C5A7CB /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C24605E71CC5E67E005FDC5C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			path = "Amit Kalra";
+			sourceTree = "<group>";
+		};
 		C25496441CC5C805007A98AA = {
 			isa = PBXGroup;
 			children = (
 				C254964F1CC5C805007A98AA /* Amit Kalra */,
 				C25496641CC5C805007A98AA /* Amit KalraTests */,
 				C254966F1CC5C805007A98AA /* Amit KalraUITests */,
+				C244267A1CC9578F00C5A7CB /* Amit */,
+				C24426891CC9579000C5A7CB /* Amit Extension */,
 				C254964E1CC5C805007A98AA /* Products */,
+				C24605E71CC5E67E005FDC5C /* Images */,
+				C2838DFC1CC6BFE80034BDB4 /* Sounds */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +294,8 @@
 				C254964D1CC5C805007A98AA /* Amit Kalra.app */,
 				C25496611CC5C805007A98AA /* Amit KalraTests.xctest */,
 				C254966C1CC5C805007A98AA /* Amit KalraUITests.xctest */,
+				C24426791CC9578F00C5A7CB /* Amit.app */,
+				C24426851CC9579000C5A7CB /* Amit Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,12 +303,15 @@
 		C254964F1CC5C805007A98AA /* Amit Kalra */ = {
 			isa = PBXGroup;
 			children = (
-				C25496501CC5C805007A98AA /* AppDelegate.swift */,
-				C25496521CC5C805007A98AA /* ViewController.swift */,
 				C25496541CC5C805007A98AA /* Main.storyboard */,
-				C25496571CC5C805007A98AA /* Assets.xcassets */,
 				C25496591CC5C805007A98AA /* LaunchScreen.storyboard */,
-				C254965C1CC5C805007A98AA /* Info.plist */,
+				C2838E021CC6C22A0034BDB4 /* Extra */,
+				C2838E011CC6C0120034BDB4 /* Intro */,
+				C2838DFD1CC6BFF50034BDB4 /* Menu */,
+				C2838DFE1CC6BFFC0034BDB4 /* About Me */,
+				C2838DFF1CC6C0040034BDB4 /* Projects */,
+				C2838E001CC6C00B0034BDB4 /* Experience */,
+				C25496571CC5C805007A98AA /* Assets.xcassets */,
 			);
 			path = "Amit Kalra";
 			sourceTree = "<group>";
@@ -125,9 +334,142 @@
 			path = "Amit KalraUITests";
 			sourceTree = "<group>";
 		};
+		C2838DFC1CC6BFE80034BDB4 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				C2CBC18C1CD2EC5B00A6ABB4 /* AboutMe.mp3 */,
+				C2CBC18D1CD2EC5B00A6ABB4 /* Experience.mp3 */,
+				C2CBC18E1CD2EC5B00A6ABB4 /* Projects.mp3 */,
+				C2CBC16C1CD2DC1A00A6ABB4 /* Backstory.mp3 */,
+				C2CBC16D1CD2DC1A00A6ABB4 /* Calc.mp3 */,
+				C2CBC16E1CD2DC1A00A6ABB4 /* Chill.mp3 */,
+				C2CBC16F1CD2DC1A00A6ABB4 /* Devices.mp3 */,
+				C2CBC1701CD2DC1A00A6ABB4 /* Facts.mp3 */,
+				C2CBC1711CD2DC1A00A6ABB4 /* FCPX.mp3 */,
+				C2CBC1721CD2DC1A00A6ABB4 /* Hey.mp3 */,
+				C2CBC1731CD2DC1A00A6ABB4 /* HTML.mp3 */,
+				C2CBC1741CD2DC1A00A6ABB4 /* Lua.mp3 */,
+				C2CBC1751CD2DC1A00A6ABB4 /* Me.mp3 */,
+				C2CBC1761CD2DC1A00A6ABB4 /* Parkour.mp3 */,
+				C2CBC1781CD2DC1A00A6ABB4 /* School.mp3 */,
+				C2CBC1791CD2DC1A00A6ABB4 /* Swift.mp3 */,
+				C2CBC17A1CD2DC1A00A6ABB4 /* WWDC.mp3 */,
+				C2CBC17B1CD2DC1A00A6ABB4 /* YouTube.mp3 */,
+				C204514B1CCEE27F00130E65 /* Fabric.framework */,
+				C204514C1CCEE27F00130E65 /* Crashlytics.framework */,
+				C25808BD1CC72B5300F30850 /* BootingSound.wav */,
+				C25808BE1CC72B5300F30850 /* HelloDub.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		C2838DFD1CC6BFF50034BDB4 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				C25496521CC5C805007A98AA /* ViewController.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		C2838DFE1CC6BFFC0034BDB4 /* About Me */ = {
+			isa = PBXGroup;
+			children = (
+				C2838E051CC6C2BE0034BDB4 /* AboutMe.swift */,
+				C258089B1CC715D400F30850 /* Me.swift */,
+				C258089D1CC715DC00F30850 /* School.swift */,
+				C258089F1CC715E900F30850 /* Chill.swift */,
+				C25808A11CC715F200F30850 /* Backstory.swift */,
+				C25808A31CC715FB00F30850 /* Devices.swift */,
+				C20B601E1CCBF50B00DAE9C3 /* Press.swift */,
+				C27F67281CCD8AE600C11CCE /* FactsMe.swift */,
+			);
+			name = "About Me";
+			sourceTree = "<group>";
+		};
+		C2838DFF1CC6C0040034BDB4 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				C2838E071CC6C2CF0034BDB4 /* Projects.swift */,
+				C25808A51CC7160B00F30850 /* Calc.swift */,
+				C25808A71CC7161400F30850 /* Parkour.swift */,
+				C25808A91CC7161D00F30850 /* Facts.swift */,
+				C25808AB1CC7162B00F30850 /* YouTube.swift */,
+			);
+			name = Projects;
+			sourceTree = "<group>";
+		};
+		C2838E001CC6C00B0034BDB4 /* Experience */ = {
+			isa = PBXGroup;
+			children = (
+				C2838E091CC6C2DB0034BDB4 /* Experience.swift */,
+				C25808AD1CC7163B00F30850 /* Swift.swift */,
+				C25808AF1CC7164300F30850 /* Lua.swift */,
+				C25808B11CC7164C00F30850 /* HTML.swift */,
+				C25808B31CC7165B00F30850 /* FCPX.swift */,
+			);
+			name = Experience;
+			sourceTree = "<group>";
+		};
+		C2838E011CC6C0120034BDB4 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				C25808B51CC7166F00F30850 /* Boot.swift */,
+				C25808B71CC7167800F30850 /* Welcome.swift */,
+				C25808B91CC7168500F30850 /* Intro.swift */,
+				C25808BB1CC7168C00F30850 /* anotherIntro.swift */,
+			);
+			name = Intro;
+			sourceTree = "<group>";
+		};
+		C2838E021CC6C22A0034BDB4 /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				C254965C1CC5C805007A98AA /* Info.plist */,
+				C25496501CC5C805007A98AA /* AppDelegate.swift */,
+				C2838E031CC6C23A0034BDB4 /* DubDub.swift */,
+				C25808991CC6FC7300F30850 /* Help.swift */,
+				C26DAD8C1CD04AA600C2A16E /* FactBook.swift */,
+			);
+			name = Extra;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C24426781CC9578F00C5A7CB /* Amit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C244269E1CC9579000C5A7CB /* Build configuration list for PBXNativeTarget "Amit" */;
+			buildPhases = (
+				C24426771CC9578F00C5A7CB /* Resources */,
+				C244269D1CC9579000C5A7CB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C24426881CC9579000C5A7CB /* PBXTargetDependency */,
+			);
+			name = Amit;
+			productName = Amit;
+			productReference = C24426791CC9578F00C5A7CB /* Amit.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C24426841CC9579000C5A7CB /* Amit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C244269C1CC9579000C5A7CB /* Build configuration list for PBXNativeTarget "Amit Extension" */;
+			buildPhases = (
+				C24426811CC9579000C5A7CB /* Sources */,
+				C24426821CC9579000C5A7CB /* Frameworks */,
+				C24426831CC9579000C5A7CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Amit Extension";
+			productName = "Amit Extension";
+			productReference = C24426851CC9579000C5A7CB /* Amit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 		C254964C1CC5C805007A98AA /* Amit Kalra */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C25496751CC5C805007A98AA /* Build configuration list for PBXNativeTarget "Amit Kalra" */;
@@ -135,10 +477,13 @@
 				C25496491CC5C805007A98AA /* Sources */,
 				C254964A1CC5C805007A98AA /* Frameworks */,
 				C254964B1CC5C805007A98AA /* Resources */,
+				C244269F1CC9579000C5A7CB /* Embed Watch Content */,
+				C204514A1CCEE25800130E65 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C24426961CC9579000C5A7CB /* PBXTargetDependency */,
 			);
 			name = "Amit Kalra";
 			productName = "Amit Kalra";
@@ -191,8 +536,16 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Amit Nivedan Kalra";
 				TargetAttributes = {
+					C24426781CC9578F00C5A7CB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					C24426841CC9579000C5A7CB = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4FRDRNE6P7;
+					};
 					C254964C1CC5C805007A98AA = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 4FRDRNE6P7;
 					};
 					C25496601CC5C805007A98AA = {
 						CreatedOnToolsVersion = 7.3;
@@ -220,18 +573,57 @@
 				C254964C1CC5C805007A98AA /* Amit Kalra */,
 				C25496601CC5C805007A98AA /* Amit KalraTests */,
 				C254966B1CC5C805007A98AA /* Amit KalraUITests */,
+				C24426781CC9578F00C5A7CB /* Amit */,
+				C24426841CC9579000C5A7CB /* Amit Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C24426771CC9578F00C5A7CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C244267F1CC9579000C5A7CB /* Assets.xcassets in Resources */,
+				C244267D1CC9578F00C5A7CB /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24426831CC9579000C5A7CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24426931CC9579000C5A7CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C254964B1CC5C805007A98AA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2CBC18B1CD2DC1A00A6ABB4 /* YouTube.mp3 in Resources */,
+				C2CBC1861CD2DC1A00A6ABB4 /* Parkour.mp3 in Resources */,
 				C254965B1CC5C805007A98AA /* LaunchScreen.storyboard in Resources */,
+				C2CBC18A1CD2DC1A00A6ABB4 /* WWDC.mp3 in Resources */,
+				C2CBC1881CD2DC1A00A6ABB4 /* School.mp3 in Resources */,
+				C2CBC1891CD2DC1A00A6ABB4 /* Swift.mp3 in Resources */,
+				C2CBC17D1CD2DC1A00A6ABB4 /* Calc.mp3 in Resources */,
+				C2CBC1851CD2DC1A00A6ABB4 /* Me.mp3 in Resources */,
+				C2CBC1901CD2EC5B00A6ABB4 /* Experience.mp3 in Resources */,
+				C2CBC1911CD2EC5B00A6ABB4 /* Projects.mp3 in Resources */,
+				C2CBC1811CD2DC1A00A6ABB4 /* FCPX.mp3 in Resources */,
+				C2CBC1821CD2DC1A00A6ABB4 /* Hey.mp3 in Resources */,
 				C25496581CC5C805007A98AA /* Assets.xcassets in Resources */,
+				C2CBC18F1CD2EC5B00A6ABB4 /* AboutMe.mp3 in Resources */,
+				C25808C01CC72B5300F30850 /* HelloDub.mp3 in Resources */,
+				C2CBC17F1CD2DC1A00A6ABB4 /* Devices.mp3 in Resources */,
+				C2CBC17E1CD2DC1A00A6ABB4 /* Chill.mp3 in Resources */,
+				C2CBC1841CD2DC1A00A6ABB4 /* Lua.mp3 in Resources */,
 				C25496561CC5C805007A98AA /* Main.storyboard in Resources */,
+				C2CBC1801CD2DC1A00A6ABB4 /* Facts.mp3 in Resources */,
+				C25808BF1CC72B5300F30850 /* BootingSound.wav in Resources */,
+				C2CBC17C1CD2DC1A00A6ABB4 /* Backstory.mp3 in Resources */,
+				C2CBC1831CD2DC1A00A6ABB4 /* HTML.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +643,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C204514A1CCEE25800130E65 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		C24426811CC9579000C5A7CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24426911CC9579000C5A7CB /* NotificationController.swift in Sources */,
+				C244268F1CC9579000C5A7CB /* ExtensionDelegate.swift in Sources */,
+				C244268D1CC9579000C5A7CB /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C25496491CC5C805007A98AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C258089A1CC6FC7300F30850 /* Help.swift in Sources */,
+				C25808AA1CC7161D00F30850 /* Facts.swift in Sources */,
+				C25808BC1CC7168C00F30850 /* anotherIntro.swift in Sources */,
+				C25808B01CC7164300F30850 /* Lua.swift in Sources */,
 				C25496531CC5C805007A98AA /* ViewController.swift in Sources */,
+				C2838E061CC6C2BE0034BDB4 /* AboutMe.swift in Sources */,
+				C2838E081CC6C2CF0034BDB4 /* Projects.swift in Sources */,
+				C25808AC1CC7162B00F30850 /* YouTube.swift in Sources */,
+				C258089E1CC715DC00F30850 /* School.swift in Sources */,
+				C2838E0A1CC6C2DB0034BDB4 /* Experience.swift in Sources */,
+				C25808A01CC715E900F30850 /* Chill.swift in Sources */,
+				C20B601F1CCBF50B00DAE9C3 /* Press.swift in Sources */,
+				C26DAD8D1CD04AA600C2A16E /* FactBook.swift in Sources */,
+				C25808A61CC7160B00F30850 /* Calc.swift in Sources */,
+				C25808BA1CC7168500F30850 /* Intro.swift in Sources */,
+				C25808AE1CC7163B00F30850 /* Swift.swift in Sources */,
+				C25808B81CC7167800F30850 /* Welcome.swift in Sources */,
+				C25808A81CC7161400F30850 /* Parkour.swift in Sources */,
+				C258089C1CC715D400F30850 /* Me.swift in Sources */,
+				C25808B41CC7165B00F30850 /* FCPX.swift in Sources */,
+				C27F67291CCD8AE600C11CCE /* FactsMe.swift in Sources */,
+				C25808A21CC715F200F30850 /* Backstory.swift in Sources */,
 				C25496511CC5C805007A98AA /* AppDelegate.swift in Sources */,
+				C25808B61CC7166F00F30850 /* Boot.swift in Sources */,
+				C25808B21CC7164C00F30850 /* HTML.swift in Sources */,
+				C2838E041CC6C23A0034BDB4 /* DubDub.swift in Sources */,
+				C25808A41CC715FB00F30850 /* Devices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +723,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C24426881CC9579000C5A7CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C24426841CC9579000C5A7CB /* Amit Extension */;
+			targetProxy = C24426871CC9579000C5A7CB /* PBXContainerItemProxy */;
+		};
+		C24426961CC9579000C5A7CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C24426781CC9578F00C5A7CB /* Amit */;
+			targetProxy = C24426951CC9579000C5A7CB /* PBXContainerItemProxy */;
+		};
 		C25496631CC5C805007A98AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C254964C1CC5C805007A98AA /* Amit Kalra */;
@@ -293,6 +746,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		C244267B1CC9578F00C5A7CB /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C244267C1CC9578F00C5A7CB /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		C25496541CC5C805007A98AA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -312,6 +773,68 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C24426981CC9579000C5A7CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Amit_Extension;
+				INFOPLIST_FILE = Amit/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amitnkalra.Amit-Kalra.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		C24426991CC9579000C5A7CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Amit_Extension;
+				INFOPLIST_FILE = Amit/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amitnkalra.Amit-Kalra.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		C244269A1CC9579000C5A7CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Amit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amitnkalra.Amit-Kalra.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		C244269B1CC9579000C5A7CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Amit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.amitnkalra.Amit-Kalra.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
 		C25496731CC5C805007A98AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -401,10 +924,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Amit Kalra/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.amitnkalra.Amit-Kalra";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -412,10 +941,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Amit Kalra/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.amitnkalra.Amit-Kalra";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -468,6 +1003,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C244269C1CC9579000C5A7CB /* Build configuration list for PBXNativeTarget "Amit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C244269A1CC9579000C5A7CB /* Debug */,
+				C244269B1CC9579000C5A7CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C244269E1CC9579000C5A7CB /* Build configuration list for PBXNativeTarget "Amit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24426981CC9579000C5A7CB /* Debug */,
+				C24426991CC9579000C5A7CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C25496481CC5C805007A98AA /* Build configuration list for PBXProject "Amit Kalra" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -484,6 +1037,7 @@
 				C25496771CC5C805007A98AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C25496781CC5C805007A98AA /* Build configuration list for PBXNativeTarget "Amit KalraTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +1046,7 @@
 				C254967A1CC5C805007A98AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C254967B1CC5C805007A98AA /* Build configuration list for PBXNativeTarget "Amit KalraUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +1055,7 @@
 				C254967D1CC5C805007A98AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

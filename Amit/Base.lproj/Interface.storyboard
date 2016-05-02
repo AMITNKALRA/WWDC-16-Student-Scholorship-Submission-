@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="SKe-Ge-K6C">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="10032"/>
+    </dependencies>
+    <scenes>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="Amit" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="4N1-06-b55">
+            <objects>
+                <controller id="SKe-Ge-K6C">
+                    <items>
+                        <imageView height="133" alignment="left" image="SunsetLife.JPG" id="Xfl-pb-UeB"/>
+                        <button width="1" alignment="left" title="About Me  👤" id="anY-90-QRK">
+                            <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="apI-Bv-iKW" kind="modal" id="aVx-jJ-PPq"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Projects 💻📲" id="zFu-gw-m4T">
+                            <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="PJJ-Y3-tiO" kind="modal" id="JCd-Ho-bs3"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Experience  🙇🏻" id="VJB-Qd-oSe">
+                            <color key="backgroundColor" red="1" green="0.1029286383" blue="0.55445862260000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="vLc-b2-AN8" kind="modal" id="Jj5-fx-Bg5"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Why WWDC? {}" id="xLf-DD-qKg">
+                            <color key="backgroundColor" red="1" green="0.60093039339999998" blue="0.14800973079999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="klG-6i-Nw7" kind="modal" id="GOL-lt-BLr"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="-260.75"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="IKn-Sm-EGh">
+            <objects>
+                <controller id="apI-Bv-iKW">
+                    <items>
+                        <label width="136" height="27.5" alignment="left" text="Hello!" textAlignment="center" id="iWP-wQ-2dy">
+                            <fontDescription key="font" type="system" pointSize="30"/>
+                        </label>
+                        <imageView height="139" alignment="left" image="appleAmit.jpg" id="SGH-3h-JeC"/>
+                        <label width="136" height="27.5" alignment="left" text="i'm Amit Nivedan Kalra" textAlignment="right" id="9uu-rp-aDm">
+                            <fontDescription key="font" type="system" pointSize="12"/>
+                        </label>
+                        <label width="136" height="27.5" alignment="left" text="a 16 year YOUNG" textAlignment="right" id="ULz-gC-raZ">
+                            <fontDescription key="font" type="system" pointSize="16"/>
+                        </label>
+                        <label width="136" height="27.5" alignment="left" text="iOS Developer" textAlignment="right" id="nGv-cy-d7j">
+                            <fontDescription key="font" type="system" pointSize="19"/>
+                        </label>
+                        <label width="136" alignment="left" text="from the bae ❤️ area." textAlignment="center" numberOfLines="2" id="aLB-0F-ACO">
+                            <fontDescription key="font" type="system" pointSize="16"/>
+                        </label>
+                        <label width="136" height="27.5" alignment="left" text="Union City, CA" textAlignment="right" id="PeT-7W-8RJ">
+                            <fontDescription key="font" type="system" pointSize="19"/>
+                        </label>
+                        <imageView height="88" alignment="left" image="Logan.jpeg" id="pcL-3M-MFs"/>
+                        <label width="136" alignment="left" text="I attend James Logan High School as a sophomore." textAlignment="center" numberOfLines="4" id="J4L-xz-rIO">
+                            <fontDescription key="font" type="system" pointSize="19"/>
+                        </label>
+                        <label width="136" alignment="left" text="I like to take pictures, hoop, hiking, code, relax, and listen to music." textAlignment="center" numberOfLines="8" id="12p-kZ-nez">
+                            <fontDescription key="font" type="system" pointSize="19"/>
+                        </label>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="468" y="-48.5"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="ljb-8O-Pn7">
+            <objects>
+                <controller id="PJJ-Y3-tiO">
+                    <items>
+                        <label width="136" height="27.5" alignment="left" text="6284 Calc" textAlignment="right" id="wXM-47-9sa">
+                            <fontDescription key="font" type="system" pointSize="30"/>
+                        </label>
+                        <imageView height="139" alignment="left" image="CalcIcon.png" id="14p-b9-ITD"/>
+                        <label width="136" alignment="left" text="6284 Calc is an app I made in May. It does your math homework for you!" textAlignment="center" numberOfLines="6" id="iMS-Re-NjZ">
+                            <fontDescription key="font" type="system" pointSize="19"/>
+                        </label>
+                        <imageView height="101" alignment="left" image="Advertisment.png" id="p6H-dH-d3G"/>
+                        <button width="1" alignment="left" title="Facts App" id="Eo0-PG-SKR">
+                            <connections>
+                                <segue destination="FDY-fl-jOC" kind="modal" id="mAw-ji-ITy"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="684" y="-188.5"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="GwX-X0-K7O">
+            <objects>
+                <controller id="FDY-fl-jOC">
+                    <items>
+                        <label width="136" height="77.5" alignment="left" text="What The **** Facts" textAlignment="right" numberOfLines="9" id="lar-mv-Mjb">
+                            <fontDescription key="font" type="system" pointSize="30"/>
+                        </label>
+                        <imageView height="139" alignment="left" image="FactsApp.png" id="yT1-yd-xz0"/>
+                        <label width="136" alignment="left" text="I made What The **** Facts so I wouldn't be sitting there bored while waiting in lines or whatever." textAlignment="center" numberOfLines="9" id="Obl-WP-eHv">
+                            <fontDescription key="font" type="system" pointSize="19"/>
+                        </label>
+                        <imageView height="101" alignment="left" image="FactsBanner.png" id="3JV-MC-uke"/>
+                        <button width="1" alignment="left" title="Parkour City" id="CMJ-n6-8Ri">
+                            <connections>
+                                <segue destination="rXn-LB-y9F" kind="modal" id="U6u-Aq-Xfy"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="894" y="-163.5"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="aKk-MY-ZTR">
+            <objects>
+                <controller id="rXn-LB-y9F">
+                    <items>
+                        <label width="136" height="74.5" alignment="left" text="Parkour City" textAlignment="center" numberOfLines="3" id="ZCC-Le-ehx">
+                            <fontDescription key="font" type="system" pointSize="30"/>
+                        </label>
+                        <imageView height="139" alignment="left" image="ParkourCity.png" id="sjS-Hk-MsA"/>
+                        <label width="136" alignment="left" text="I made Parkour City in the Summer of '13 for ROBLOX just to have a place for me and my homies to chill." textAlignment="center" numberOfLines="9" id="2d3-uC-oKx">
+                            <fontDescription key="font" type="system" pointSize="19"/>
+                        </label>
+                        <imageView height="101" alignment="left" image="PCBanner.png" id="Lvn-kj-OyH"/>
+                        <button width="1" alignment="left" title="YouTube" id="nfx-el-keh">
+                            <connections>
+                                <segue destination="lv3-D5-Pr2" kind="modal" id="Y90-z3-XXk"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1106" y="-165"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="udB-S5-yfv">
+            <objects>
+                <controller id="lv3-D5-Pr2">
+                    <items>
+                        <label width="136" height="77.5" alignment="left" text="YouTube" textAlignment="center" numberOfLines="9" id="CPh-n6-qqe">
+                            <fontDescription key="font" type="system" pointSize="30"/>
+                        </label>
+                        <imageView width="136" height="139" alignment="left" image="YouTube.png" id="NOY-IL-zqS"/>
+                        <label width="136" alignment="left" text="I make YouTube videos really often! I LOVE to edit and entertain others!" textAlignment="center" numberOfLines="9" id="VTb-lb-6Yg">
+                            <fontDescription key="font" type="system" pointSize="19"/>
+                        </label>
+                        <imageView height="90" alignment="left" image="working.JPG" id="of0-2z-jEL"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1314" y="-169"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="mNt-R9-2TM">
+            <objects>
+                <controller id="vLc-b2-AN8">
+                    <items>
+                        <label width="136" height="27.5" alignment="left" text="Swift" textAlignment="center" id="gsW-Mp-tle">
+                            <fontDescription key="font" type="system" pointSize="30"/>
+                        </label>
+                        <imageView height="139" alignment="left" image="Swift.png" id="VfG-wy-jV7"/>
+                        <label width="136" alignment="left" textAlignment="center" numberOfLines="98" id="d9w-ob-snm">
+                            <string key="text">I feel pretty confident in saying I am understanding Swift. I was mad at it because I couldn't figure out how people remembered all these sytax forms but now, it's all good! I never gave up and now I love this language!</string>
+                            <fontDescription key="font" type="system" pointSize="19"/>
+                        </label>
+                        <button width="1" alignment="left" title="HTML" id="zc1-dP-ZIJ">
+                            <connections>
+                                <segue destination="jX7-kP-Ze4" kind="modal" id="Z8u-qF-nCh"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1540" y="-239.75"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="FQI-L5-1pk">
+            <objects>
+                <controller id="klG-6i-Nw7">
+                    <items>
+                        <label width="136" height="75.5" alignment="left" text="Why WWDC?" textAlignment="center" numberOfLines="2" id="mxu-87-t7Z">
+                            <fontDescription key="font" type="system" pointSize="30"/>
+                        </label>
+                        <imageView height="139" alignment="left" image="WWDC.png" id="0zg-44-ePo"/>
+                        <label width="136" alignment="left" text="Watch the video on your iPhone! But actually, don't. I mainly want to attend WWDC to meet this guy : #SavedYouAClick " textAlignment="center" numberOfLines="13" id="e4Y-Yc-e9W">
+                            <fontDescription key="font" type="system" pointSize="19"/>
+                        </label>
+                        <imageView height="136" alignment="left" image="Craig.png" id="QLO-7O-iQt"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="2423" y="-249.5"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="0vM-af-TeG">
+            <objects>
+                <controller id="jX7-kP-Ze4">
+                    <items>
+                        <label width="136" height="41.5" alignment="left" text="HTML &amp; CSS" textAlignment="center" id="8rW-oy-adi">
+                            <fontDescription key="font" type="system" pointSize="26"/>
+                        </label>
+                        <imageView height="139" alignment="left" image="HTML &amp; CSS.png" id="rIT-0V-xFD"/>
+                        <label width="136" alignment="left" textAlignment="center" numberOfLines="98" id="qEV-MW-wo2">
+                            <string key="text">I am okay in HTML and CSS. I legit just know enough of HTML and CSS to make my website. That's legit all I know, and I'm not confident that I know it by heart either. My heart lives with Swift.</string>
+                            <fontDescription key="font" type="system" pointSize="19"/>
+                        </label>
+                        <button width="1" alignment="left" title="Lua" id="VJ3-eI-rK3">
+                            <connections>
+                                <segue destination="WBg-l8-Qdb" kind="modal" id="6is-pk-Nyv"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1750" y="-232.5"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="DKt-pW-SWi">
+            <objects>
+                <controller id="WBg-l8-Qdb">
+                    <items>
+                        <label width="136" height="41.5" alignment="left" text="Lua" textAlignment="center" id="16U-1A-8Jc">
+                            <fontDescription key="font" type="system" pointSize="26"/>
+                        </label>
+                        <imageView height="139" alignment="left" image="Lua.png" id="WNa-Fl-47r"/>
+                        <label width="136" alignment="left" textAlignment="center" numberOfLines="98" id="9si-b9-c1X">
+                            <string key="text">I know a little Lua. It's like Swift! I am pretty good in Lua. It was the second programming language I learned about. I used it to make my game Parkour City, on ROBLOX. Lua is VERY similar to Swift, which is why I also love it so much!</string>
+                            <fontDescription key="font" type="system" pointSize="19"/>
+                        </label>
+                        <button width="1" alignment="left" title="FCPX" id="df2-qk-Stj">
+                            <connections>
+                                <segue destination="dGx-iD-0Kb" kind="modal" id="7ci-ow-nOs"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1954" y="-234.75"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="8ck-je-H4E">
+            <objects>
+                <controller id="dGx-iD-0Kb">
+                    <items>
+                        <label width="136" height="41.5" alignment="left" text="FCPX" textAlignment="center" id="tUN-vx-JE2">
+                            <fontDescription key="font" type="system" pointSize="26"/>
+                        </label>
+                        <imageView height="139" alignment="left" image="FCPX.png" id="On2-SN-kYD"/>
+                        <label width="136" alignment="left" textAlignment="center" numberOfLines="98" id="JGH-vC-gvw">
+                            <string key="text">I use Final Cut Pro X for my YouTube videos! After using iMovie for so long making videos, I needed something more advance so I switched to Final Cut Pro X!</string>
+                            <fontDescription key="font" type="system" pointSize="19"/>
+                        </label>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="2160" y="-235.75"/>
+        </scene>
+    </scenes>
+</document>
